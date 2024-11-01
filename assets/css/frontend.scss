@@ -1,0 +1,121 @@
+$primary: #531b93;
+$secondary: #007cba;
+$light: #f2f4f6;
+$dark: #323436;
+$black: #000000;
+$white: #ffffff;
+$gray: #eeeeee;
+$success: #4f8f00;
+$error: #ff2600;
+
+.simple-data-tables {
+  .dynatable-filter {
+    width: 50%;
+    padding: 15px;
+    margin: 0;
+    background-color: rgba($black, 0.05);
+    display: inline-block;
+    float: left;
+    select {
+      display: block;
+    }
+  }
+  .dynatable-processing {
+    display: none;
+    width: 0;
+    position: absolute;
+    left: -9999px;
+  }
+  .dynatable-search {
+    width: 25%;
+    padding: 15px;
+    background-color: rgba($black, 0.05);
+    display: inline-block;
+    input {
+      display: block;
+    }
+  }
+  .dynatable-per-page {
+    width: 25%;
+    padding: 15px;
+    background-color: rgba($black, 0.05);
+    display: inline-block;
+    select {
+      display: block;
+    }
+  }
+  .dynatable-pagination-links {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    a {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+  .dynatable-record-count {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  input,
+  select {
+    background: rgba($black, 0.05);
+    border-radius: 0;
+    border: 1px solid rgba($black, 0.15);
+    box-shadow: none;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 5px 10px;
+    width: auto !important;
+    height: 38px !important;
+    text-transform: uppercase;
+  }
+  .sdt-none {
+    display: none;
+  }
+  .sdt-table {
+    margin: 20px 0;
+    &.sdt-table-striped {
+      tr:nth-child(2n + 1) {
+        background: rgba($black, 0.05);
+      }
+    }
+    &.sdt-table-hover {
+      tr:hover {
+        background: rgba($black, 0.08);
+        cursor: pointer;
+      }
+    }
+    thead {
+      &.sdt-thead-light {
+        background: rgba($black, 0.08);
+      }
+      th {
+        font-variant: small-caps;
+      }
+    }
+    tbody {
+      tr {
+        transition: background-color 400ms ease-in-out;
+      }
+      td {
+        transition: all 600ms ease-in-out;
+        vertical-align: top;
+      }
+    }
+  }
+}
+
+[data-dynatable-column="title"] {
+  min-width: 20rem;
+  @media (max-width: 768px) {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,56 @@
+$primary: #531b93;
+$secondary: #007cba;
+$light: #f2f4f6;
+$dark: #323436;
+$black: #000000;
+$white: #ffffff;
+$gray: #eeeeee;
+$success: #4f8f00;
+$error: #ff2600;
+
+.simple-data-tables {
+  padding: 40px 20px;
+  background: $white;
+  border: 1px solid $black;
+  .edt-heading {
+    font-size: 15px;
+    margin: 0 0 15px 0;
+    display: block;
+    font-weight: 700;
+  }
+  .edt-shortcode {
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid $black;
+    padding: 10px;
+  }
+}
+
+.edt-label,
+.edt-options,
+.edt-checkbox-group,
+.edt-checkbox {
+  width: 90%;
+  margin: 0 5% 0 5%;
+  display: block;
+}
+
+.edt-label {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.edt-checkbox-group {
+  margin-bottom: 15px;
+}
+
+.edt-checkbox {
+  label {
+    position: relative;
+    top: -2px;
+    left: 2px;
+    letter-spacing: 0.3px;
+  }
+}

@@ -1,0 +1,103 @@
+$primary: #531b93;
+$secondary: #007cba;
+$light: #f2f4f6;
+$dark: #323436;
+$black: #000000;
+$white: #ffffff;
+$gray: #eeeeee;
+$success: #4f8f00;
+$error: #ff2600;
+
+.simple-data-tables {
+  // Overwrites (system)
+  h1 {
+    font-weight: 700;
+  }
+  h3 {
+    font-size: 13px;
+    line-height: 1.25;
+    letter-spacing: 1px;
+    margin-left: 0;
+    font-weight: 700;
+    position: relative;
+    top: 3px;
+    text-transform: uppercase;
+  }
+  img {
+    width: auto;
+    height: auto;
+  }
+  hr {
+    margin-top: 20px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .dashicons {
+    width: auto;
+    height: auto;
+  }
+  // Utilities (plugin specific)
+  .sdt-img-fluid {
+    width: 100%;
+    height: auto;
+    transition: all 400ms ease-in-out;
+    &:hover {
+      box-shadow: 0 0 0 4px $secondary;
+      border-radius: 1px;
+    }
+  }
+  .sdt-none {
+    display: none;
+  }
+  .sdt-block {
+    display: block;
+  }
+  .sdt-text-large {
+    font-size: 17px;
+  }
+  .sdt-text-medium {
+    font-size: 15px;
+  }
+  .sdt-text-small {
+    font-size: 13px;
+  }
+  .sdt-text-left {
+    text-align: left;
+  }
+  .sdt-text-right {
+    text-align: right;
+  }
+  .sdt-text-center {
+    text-align: center;
+  }
+  .sdt-text-primary {
+    color: $primary;
+  }
+  .sdt-text-secondary {
+    color: $secondary;
+  }
+  .sdt-text-light {
+    color: $light;
+  }
+  .sdt-text-dark {
+    color: $dark;
+  }
+  .sdt-text-black {
+    color: $black;
+  }
+  .sdt-text-white {
+    color: $white;
+  }
+  .sdt-text-gray {
+    color: $gray;
+  }
+  .sdt-text-success {
+    color: $success;
+  }
+  .sdt-text-error {
+    color: $error;
+  }
+  // Components (plugin specific)
+}

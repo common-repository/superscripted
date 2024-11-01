@@ -1,0 +1,90 @@
+.simple-data-tables h1 {
+  font-weight: 700;
+}
+.simple-data-tables h3 {
+  font-size: 13px;
+  line-height: 1.25;
+  letter-spacing: 1px;
+  margin-left: 0;
+  font-weight: 700;
+  position: relative;
+  top: 3px;
+  text-transform: uppercase;
+}
+.simple-data-tables img {
+  width: auto;
+  height: auto;
+}
+.simple-data-tables hr {
+  margin-top: 20px;
+}
+.simple-data-tables p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.simple-data-tables .dashicons {
+  width: auto;
+  height: auto;
+}
+.simple-data-tables .sdt-img-fluid {
+  width: 100%;
+  height: auto;
+  transition: all 400ms ease-in-out;
+}
+.simple-data-tables .sdt-img-fluid:hover {
+  box-shadow: 0 0 0 4px #007cba;
+  border-radius: 1px;
+}
+.simple-data-tables .sdt-none {
+  display: none;
+}
+.simple-data-tables .sdt-block {
+  display: block;
+}
+.simple-data-tables .sdt-text-large {
+  font-size: 17px;
+}
+.simple-data-tables .sdt-text-medium {
+  font-size: 15px;
+}
+.simple-data-tables .sdt-text-small {
+  font-size: 13px;
+}
+.simple-data-tables .sdt-text-left {
+  text-align: left;
+}
+.simple-data-tables .sdt-text-right {
+  text-align: right;
+}
+.simple-data-tables .sdt-text-center {
+  text-align: center;
+}
+.simple-data-tables .sdt-text-primary {
+  color: #531b93;
+}
+.simple-data-tables .sdt-text-secondary {
+  color: #007cba;
+}
+.simple-data-tables .sdt-text-light {
+  color: #f2f4f6;
+}
+.simple-data-tables .sdt-text-dark {
+  color: #323436;
+}
+.simple-data-tables .sdt-text-black {
+  color: #000000;
+}
+.simple-data-tables .sdt-text-white {
+  color: #ffffff;
+}
+.simple-data-tables .sdt-text-gray {
+  color: #eeeeee;
+}
+.simple-data-tables .sdt-text-success {
+  color: #4f8f00;
+}
+.simple-data-tables .sdt-text-error {
+  color: #ff2600;
+}
+
+/*# sourceMappingURL=admin.css.map */

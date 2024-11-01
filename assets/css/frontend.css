@@ -1,0 +1,105 @@
+.simple-data-tables .dynatable-filter {
+  width: 50%;
+  padding: 15px;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: inline-block;
+  float: left;
+}
+.simple-data-tables .dynatable-filter select {
+  display: block;
+}
+.simple-data-tables .dynatable-processing {
+  display: none;
+  width: 0;
+  position: absolute;
+  left: -9999px;
+}
+.simple-data-tables .dynatable-search {
+  width: 25%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: inline-block;
+}
+.simple-data-tables .dynatable-search input {
+  display: block;
+}
+.simple-data-tables .dynatable-per-page {
+  width: 25%;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.05);
+  display: inline-block;
+}
+.simple-data-tables .dynatable-per-page select {
+  display: block;
+}
+.simple-data-tables .dynatable-pagination-links {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+.simple-data-tables .dynatable-pagination-links a {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.simple-data-tables .dynatable-record-count {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+.simple-data-tables input,
+.simple-data-tables select {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-shadow: none;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 5px 10px;
+  width: auto !important;
+  height: 38px !important;
+  text-transform: uppercase;
+}
+.simple-data-tables .sdt-none {
+  display: none;
+}
+.simple-data-tables .sdt-table {
+  margin: 20px 0;
+}
+.simple-data-tables .sdt-table.sdt-table-striped tr:nth-child(2n+1) {
+  background: rgba(0, 0, 0, 0.05);
+}
+.simple-data-tables .sdt-table.sdt-table-hover tr:hover {
+  background: rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+.simple-data-tables .sdt-table thead.sdt-thead-light {
+  background: rgba(0, 0, 0, 0.08);
+}
+.simple-data-tables .sdt-table thead th {
+  font-variant: small-caps;
+}
+.simple-data-tables .sdt-table tbody tr {
+  transition: background-color 400ms ease-in-out;
+}
+.simple-data-tables .sdt-table tbody td {
+  transition: all 600ms ease-in-out;
+  vertical-align: top;
+}
+
+[data-dynatable-column=title] {
+  min-width: 20rem;
+}
+@media (max-width: 768px) {
+  [data-dynatable-column=title] {
+    min-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=frontend.css.map */
